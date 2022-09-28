@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 
 app.get('/', (_req, res) => {
-  res.send(`<h1> Executando com mudança na porta: ${PORT} </h1>`);
+  res.send(`<h1> Executando com mudança FINALIZADA na porta: ${PORT} </h1>`);
 });
 
 app.listen(PORT, () => {
